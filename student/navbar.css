@@ -1,0 +1,51 @@
+body {
+    font-family: 'Paytone One', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    position: relative;
+}
+
+/* Start Landing Page */
+
+.header-area {
+    display: flex;
+    padding: 25px 0 0;
+    position: relative;
+}
+
+.header-area .logo {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    padding-left: 130px;
+    font-size: 19px;
+    width: 300px;
+    color: #d80027;
+}
+  
+  #nav-1 {
+    margin-top: 2px;
+    padding: 10px;
+    position: sticky;
+    float: right;
+    margin-left: 250px;
+  }
+ 
+  .link-1 {
+    transition: 0.3s ease;
+    color: #231f20;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ 
+  .link-1:hover {
+    color: #d80027;
+  }
